@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Weatherreport</title>
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/weather.min.js"></script>
+	<link href="style/weather.css" rel=stylesheet>
+</head>
+<body>
+	<p id=loadingscreen>Loading required information...</p>
+	<canvas id=stars></canvas>
+	<img id=celestialBody src="img/sun.png">
+	<section id=clouds></section>
+	<section id=ground></section>
+	<p id=time></p>
+	<canvas id=rain width="100%" height="100%"></canvas>
+	<p id=informationSources>This website utilizes data from <a href=https://developers.google.com/maps/>Google Maps API</a>, <a href=http://www.freegeoip.net>freegeoip.net</a> and <a href=http://openweathermap.org/API>Open Weather Map</a></p>
+	<section id=weatherreport>
+		<section id=weather>
+			<p id=temperature></p>
+			<p id=location></p>
+			<p id=cloudAmount></p>
+			<p id=weatherAmount></p>
+		</section>
+	</section>
+	<img id=left class=arrow src="img/arrow-left.png"></img>
+	<img id=right class=arrow src="img/arrow-right.png"></img>
+</body>
+</html>
