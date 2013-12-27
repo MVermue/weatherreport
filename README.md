@@ -7,7 +7,7 @@ An example on how to implement this in your website:
 
     <iframe src=weatherreport.html width=320px height=240px style="border:none;">
     
-The weather forecast can easily scale up to big resolutions and still looks good when it would for example get resized. If wanted you can also change certain variables to change the amount of clouds rendered, etc. With some editing it's ofcourse possible to make smaller versions of the forecast page as well.
+The weather forecast can easily scale up to big resolutions and still looks good when it would for example get resized. If wanted you can also change certain variables at the start of the weather.js file to change the amount of clouds rendered, etc. With some editing it's also possible to make smaller versions of the forecast page as well. For better performance, the minified version of the javascript is being used.
 
 Information sources
 -------------------
